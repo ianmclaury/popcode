@@ -350,6 +350,11 @@ body {
   position: relative;
   z-index: 0;
   display: flex;
+  margin-top: 0.15em;
+}
+
+.editors-editorContainer:first-of-type {
+    margin-top: 0;
 }
 
 .editors-editorContainer:last-child {
